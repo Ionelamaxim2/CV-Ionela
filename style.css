@@ -1,14 +1,24 @@
 body {
+  padding-top: 90px;
   font-family: "Old Standard TT", serif;
   font-weight: normal;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  padding: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
-  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header a {
